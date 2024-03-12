@@ -47,7 +47,7 @@ function App() {
         </section>
         {/* Projects Section */}
         <section>
-          <div className='container m-auto px-4'>
+          <div className='container m-auto px-4 py-12'>
             <h2 className='text-2xl font-semibold'>
               Projects
             </h2>
@@ -89,27 +89,92 @@ function App() {
             <div className='mt-14'>
               <div>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>HTML</h2>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
-                <span className='w-full h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
-              <div className='mt-6'>
+              <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>HTML</h2>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
-                <span className='w-full h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <span className='w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+          </div>
+          </div>
+          </section>
+          {/* Additional Skills Section */}
+          <section className='py-10'>
+            <div className='container m-auto px-4 py-14'>
+            <h2 className='text-2xl font-semibold'>Additional Technologies and Skills</h2>
+            <div className='flex justify-between mt-12 w-[80%]'>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
               </div>
               <div>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>HTML</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
               </div>
-          </div>
-          </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
+              </div>
+            </div>
+            <div className='flex justify-between mt-6 w-[80%]'>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-3'>Git</p>
+              </div>
+            </div>
+            </div>
+          </section>
+          <section className='py-10'>
+            <div className='container m-auto px-4'>
+              <h2 className='text-2xl font-semibold'>About Me</h2>
+              <div className='mt-12 relative before:absolute before:top-0 before:left-4 before:bottom-0 before:w-1 before:bg-white'>
+                <div className='pl-10 relative'>
+                  <h3 className='absolute -left-6'>2015</h3>
+                  <p>Completed Flatiron School</p>
+                </div>
+                <div className='ml-10 pt-10'>
+                  <p>Completed Flatiron School</p>
+                </div>
+                <div className='ml-10 pt-10'>
+                  <p>Completed Flatiron School</p>
+                </div>
+                <div className='ml-10 pt-10'>
+                  <p>Completed Flatiron School</p>
+                </div>
+              </div>
+            </div>
           </section>
         </section>
       </main>
