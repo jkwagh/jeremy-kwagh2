@@ -156,21 +156,24 @@ function App() {
             </div>
             </div>
           </section>
-          <section className='py-10'>
+          <section className='py-8'>
             <div className='container m-auto px-4'>
               <h2 className='text-2xl font-semibold'>About Me</h2>
-              <div className='mt-12 relative before:absolute before:top-0 before:left-4 before:bottom-0 before:w-1 before:bg-white'>
-                <div className='pl-10 relative'>
-                  <h3 className='absolute -left-6'>2015</h3>
+              <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-0 before:w-1 before:bg-white'>
+                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='ml-10 pt-10'>
+                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='ml-10 pt-10'>
+                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='ml-10 pt-10'>
+                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
               </div>
