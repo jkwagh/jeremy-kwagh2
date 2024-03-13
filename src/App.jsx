@@ -3,6 +3,8 @@ import Profile from "./assets/Photo.jpeg";
 import EventPlanner from "./assets/EventPlanner.png";
 import FitnessEquip from "./assets/FitnessEquip.png";
 import FlatironEats from "./assets/FlatironEats.png";
+import Github from "./assets/GithubIcon.png"
+import Linkedin from "./assets/LinkedinIcon.png"
 
 function App() {
 
@@ -33,11 +35,11 @@ function App() {
       <main>
         {/* Intro/Banner Section */}
         <section>
-          <div className='container m-auto px-4 py-10 flex gap-6'>
+          <div className='container m-auto px-4 py-32 flex gap-6'>
             <div>
               <h2 className='font-bold text-4xl'>Hello, I am Jeremy, </h2>
               <h2 className='font-bold text-4xl mt-1 gradiant-text'>Full-Stack Software Developer</h2>
-              <p className='mt-4 text-gray-400'>Former accoutant turned coder. Looking to apply years of corporate experience and understanding of business needs with coding skills.</p>
+              <p className='mt-4 text-gray-400'>Former accountant turned coder. Looking to apply years of corporate experience and understanding of business needs with coding skills.</p>
             </div>
             <div className='relative'>
               <img src={Profile} width={320} className='relative z-1' alt='Photo of Jeremy Kwagh' ></img>
@@ -80,8 +82,8 @@ function App() {
                 </div>
               </div>
             </div>
-
-          </div> 
+          </div>
+          </section>
           {/* Technologies Section */}
           <section className='mt-12'>
           <div className='container m-auto px-4'>
@@ -159,28 +161,45 @@ function App() {
           <section className='py-8'>
             <div className='container m-auto px-4'>
               <h2 className='text-2xl font-semibold'>About Me</h2>
-              <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-0 before:w-1 before:bg-white'>
+              <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-3 before:w-1 before:bg-white'>
                 <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
-                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
+                <div className='pl-24 mt-12 backdrop:relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
                   <p>Completed Flatiron School</p>
                 </div>
               </div>
             </div>
           </section>
-        </section>
       </main>
+      <footer>
+        <div className='container m-auto flex justify-between'>
+          <div>
+            <p className='text-gray-300 text-sm'>Copyright @ 2024</p>
+          </div>
+          <div>
+            <ul className='flex gap-4'>
+              <li>
+                <a><img src={Github} className='w-5' /></a>
+              </li>
+              <li>
+                <a><img src={Linkedin} className='w-5'/></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
