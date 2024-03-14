@@ -33,7 +33,7 @@ function App() {
         <div className='container m-auto px-4 py-6 max-w-4xl bg-black'>
           <div className='flex flex-col gap-4 sm:flex-row justify-between item-center'>
             <div>
-              <h1 className='font-bold text-2xl'><a href='#home'>Jeremy Portfolio</a></h1>
+              <h1 className='font-bold text-2xl'><a href='#home'>Jeremy Kwagh</a></h1>
             </div>
             <div>
               <ul className = 'flex gap-4'>
@@ -58,7 +58,7 @@ function App() {
             <div>
               <h2 className='font-bold text-4xl'>Hello, I am Jeremy,</h2>
               <h2 className='font-bold text-4xl mt-1 gradiant-text'>Full-Stack Software Developer</h2>
-              <p className='mt-4 text-gray-400'>Former accountant turned coder. Looking to apply years of corporate experience and understanding of business needs with coding skills.</p>
+              <p className='mt-4 text-gray-400'>I am a former accountant turned coder, looking to leverage my background in finance and decade of corporate experience to build fully </p>
             </div>
             <div className='relative'>
               <img src={Profile} className='relative z-10 w-[220px] m-auto sm:w-[520px]' alt='Photo of Jeremy Kwagh' ></img>
@@ -126,28 +126,28 @@ function App() {
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <h2 className='text-lg font-semibold'>React</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <h2 className='text-lg font-semibold'>Python</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <h2 className='text-lg font-semibold'>Flask-SQLAlchemy</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Javascript</h2>
+                  <h2 className='text-lg font-semibold'>Bootstrap</h2>
                   <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
@@ -164,24 +164,24 @@ function App() {
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>RESTful APIs</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Tailwind</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Object Oriented Programming</p>
               </div>
             </div>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-4 sm:mt-6 w-[80%]'>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Teamwork</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Problem Solving</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Presentation Skills</p>
               </div>
             </div>
             </div>
@@ -192,20 +192,20 @@ function App() {
               <h2 className='text-2xl font-semibold'>About Me</h2>
               <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-3 before:w-1 before:bg-white'>
                 <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
-                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                  <p>Completed Flatiron School</p>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2024</h3>
+                  <p>Completed the Flatiron School - Software Engineering program.</p>
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
-                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                  <p>Completed Flatiron School</p>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2022</h3>
+                  <p>Your Part-Time Controller - Staff Accountant</p>
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
-                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                  <p>Completed Flatiron School</p>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2016</h3>
+                  <p>Comcast - Senior Accountant</p>
                 </div>
                 <div className='pl-24 mt-12 backdrop:relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
-                  <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                  <p>Completed Flatiron School</p>
+                  <h3 className='absolute left-0 text-lg font-semibold'>2013</h3>
+                  <p>Eisner Amper - Senior Auditor</p>
                 </div>
               </div>
             </div>
@@ -213,9 +213,9 @@ function App() {
       </main>
       <footer>
         <div className='container m-auto flex justify-between px-4 py-6'>
-          <div>
+          {/* <div>
             <p className='text-gray-300 text-sm'>Copyright @ 2024</p>
-          </div>
+          </div> */}
           <div>
             <ul className='flex gap-4'>
               <li>
