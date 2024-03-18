@@ -58,7 +58,9 @@ function App() {
             <div>
               <h2 className='font-bold text-4xl'>Hello, I am Jeremy,</h2>
               <h2 className='font-bold text-4xl mt-1 gradiant-text'>Full-Stack Software Developer</h2>
-              <p className='mt-4 text-gray-400'>I am a former accountant turned coder, looking to leverage my background in finance and decade of corporate experience to build fully </p>
+              <p className='mt-4 text-gray-400'>🫘 Former bean counter turned code writer.</p>
+              <p className='mt-4 text-gray-400'>👨‍💻 With a unique blend of 10 years in accounting and a passion for coding, I bring a diverse skill set to the world of software development. My technical proficiency includes, but is not limited to, JavaScript, React, HTML/CSS, Python, and SQL.</p>
+              <p className='mt-4 text-gray-400'>👨‍💻 My journey started in accounting, where I honed my analytical skills, problem-solving abilities, and gained experience working collaboratively. However, my fascination with technology led me to transition into pursuing a career in software engineering. I am looking to leverage my background in accounting to help any team come up with solutions that meet technical requirements, while also keeping an eye on business needs and understanding how the two sides should work together.</p>
             </div>
             <div className='relative'>
               <img src={Profile} className='relative z-10 w-[220px] m-auto sm:w-[520px]' alt='Photo of Jeremy Kwagh' ></img>
@@ -85,16 +87,16 @@ function App() {
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={EventPlanner} className='w-full h-auto'/>
                 <h3 className='text-2xl font-semibold mt-8'>Event Planner</h3>
-                <p className='text-gray-400 text-sm mt-2'>Fullstack web app for planning and organizing events</p>
+                <p className='text-gray-400 text-sm mt-2'>An event organizing app that allows prospective attendees to see event details and the event organizer to see attendee information.</p>
                 <div className='flex mt-12 gap-2'>
-                  <button className='flex-1   py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
+                <button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
                   <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
                 </div>
               </div>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={FlatironEats} className='w-full h-auto'/>
                 <h3 className='text-2xl font-semibold mt-8'>Flatiron Eats</h3>
-                <p className='text-gray-400 text-sm mt-2'>Fullstack web app for ordering food and managing users</p>
+                <p className='text-gray-400 text-sm mt-2'>A clone of a food delivery app that contains a small sample of foods from different menus that can be added to a cart.</p>
                 <div className='flex mt-12 gap-2'>
                   <button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
                   <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
@@ -103,7 +105,7 @@ function App() {
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={FitnessEquip} className='w-full h-auto'/>
                 <h3 className='text-2xl font-semibold mt-8'>Fitness Equipment Marketplace</h3>
-                <p className='text-gray-400 text-sm mt-2'>React web app for viewing list of fitnesss equipment</p>
+                <p className='text-gray-400 text-sm mt-2'>A marketplace for fitness equipment where users can browse and add items.</p>
                 <div className='flex mt-12 gap-2'>
                   <button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
                   <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
