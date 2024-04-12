@@ -63,7 +63,7 @@ function App() {
               <p className='mt-4 text-gray-400'>👨‍💻 My journey started in accounting, where I honed my analytical skills, problem-solving abilities, and gained experience working collaboratively. However, my fascination with technology led me to transition into pursuing a career in software engineering. I am looking to leverage my background in accounting to help any team come up with solutions that meet technical requirements, while also keeping an eye on business needs and understanding how the two sides should work together.</p>
             </div>
             <div className='relative'>
-              <img src={Profile} className='relative z-10 w-[220px] m-auto sm:w-[520px]' alt='Photo of Jeremy Kwagh' ></img>
+              <img src={Profile} className='relative z-10 w-[220px] m-auto sm:w-auto' alt='Photo of Jeremy Kwagh' ></img>
               <div className='m-auto item-center'>
                 <ul className='flex mt-2 gap-2'>
                   <li>
@@ -115,7 +115,7 @@ function App() {
           </div>
           </section>
           {/* Technologies Section */}
-          <section className="py-10" id="technologies">
+          {/* <section className="py-10" id="technologies">
           <div className='container m-auto px-4'>
             <h2 className='text-2xl font-semibold'>Technologies</h2>
             <div className='mt-14'>
@@ -156,11 +156,25 @@ function App() {
               </div>
           </div>
           </div>
-          </section>
+          </section> */}
           {/* Additional Skills Section */}
           <section className='py-10'>
             <div className='container m-auto px-4 py-14'>
-            <h2 className='text-2xl font-semibold'>Additional Technologies and Skills</h2>
+            <h2 className='text-2xl font-semibold'>Technologies and Skills</h2>
+            <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Javascript</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>React</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Python</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Flask-SQLAlechemy</p>
+              </div>
+            </div>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
               <div>
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
