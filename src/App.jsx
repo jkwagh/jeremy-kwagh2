@@ -209,19 +209,19 @@ function App() {
               <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-3 before:w-1 before:bg-white'>
                 <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2024</h3>
-                  <p>Completed the Flatiron School - Software Engineering program.</p>
+                  <p>Flatiron School: An immmersive coding bootcamp that gives students the education to become lifelong professional software engineers. Flatiron’s full stack program teaches programming fundamentals (HTML & CSS, OOP, SQL), web frameworks (Flask), Python, JavaScript, and front-end frameworks (React). Students build advanced portfolios to demonstrate their technical skills and creativity and immerse themselves in the technical community. </p>
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2022</h3>
-                  <p>Your Part-Time Controller - Staff Accountant</p>
+                  <p>Your Part-Time Controller - Staff Accountant: Performed weekly and monthly transactional processes as an outsourced accountant for various non-profit organizations. Additionally provided financial anaylsis and cash-flow projections and addressed any administrative or finance-related questions or tasks clients would need taken care of. </p>
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2016</h3>
-                  <p>Comcast - Senior Accountant</p>
+                  <p>Comcast - Senior Accountant: Performed monthly accountant duties for the Revenue Department of Comcast Cable. Including, but not limited to, monitoring and analying general ledger accounts, providing monthly explanations of changes in BS, and preparing/posting monthly journal entries.</p>
                 </div>
                 <div className='pl-24 mt-12 backdrop:relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2013</h3>
-                  <p>Eisner Amper - Senior Auditor</p>
+                  <p>Eisner Amper - Senior Auditor: Performed and assisted audits and reviews for clients in various industries such as commercial, manudacturing, non-profit, and emploee behefit for a 1,200+ emplpyee national public accounting firm.</p>
                 </div>
               </div>
             </div>
