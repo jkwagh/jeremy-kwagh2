@@ -33,7 +33,7 @@ function App() {
         <div className='container m-auto px-4 py-6 max-w-4xl bg-black'>
           <div className='flex flex-col gap-4 sm:flex-row justify-between item-center'>
             <div>
-              <h1 className='font-bold text-2xl'><a href='#home'>Jeremy Kwagh</a></h1>
+              <h1 className='font-bold text-2xl'><a href="#home">Jeremy Kwagh</a></h1>
             </div>
             <div>
               <ul className = 'flex gap-4'>
@@ -53,7 +53,7 @@ function App() {
       </header>
       <main className='relative mt-28'>
         {/* Intro/Banner Section */}
-        <section id='home'>
+        <section id="home">
           <div className='container m-auto px-4 pt-12 sm:py-32  flex flex-col sm:flex-row gap-6'>
             <div>
               <h2 className='font-bold text-4xl'>Hello, I am Jeremy,</h2>
@@ -78,7 +78,7 @@ function App() {
           </div>
         </section>
         {/* Projects Section */}
-        <section id='projects'>
+        <section className='py-10' id="projects">
           <div className='container m-auto px-4 sm:py-12'>
             <h2 className='text-2xl font-semibold'>
               Projects
