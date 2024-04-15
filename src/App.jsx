@@ -38,7 +38,7 @@ function App() {
             <div>
               <ul className = 'flex gap-4'>
                 <li>
-                  <a href='#projects' className='text-gray-400 hover:text-white cursor-pointer'>Projects</a>
+                  <a href="#projects" className='text-gray-400 hover:text-white cursor-pointer'>Projects</a>
                 </li>
                 <li>
                   <a href="#technologies" className='text-gray-400 hover:text-white cursor-pointer'>Technologies</a>
@@ -115,50 +115,7 @@ function App() {
           </div>
           </section>
           {/* Technologies Section */}
-          {/* <section className="py-10" id="technologies">
-          <div className='container m-auto px-4'>
-            <h2 className='text-2xl font-semibold'>Technologies</h2>
-            <div className='mt-14'>
-              <div>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Javascript</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-              <div className='mt-8'>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>React</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-              <div className='mt-8'>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Python</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-              <div className='mt-8'>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Flask-SQLAlchemy</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-              <div className='mt-8'>
-                <div className='flex justify-between items-center'>
-                  <h2 className='text-lg font-semibold'>Bootstrap</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-          </div>
-          </div>
-          </section> */}
-          {/* Additional Skills Section */}
-          <section className='py-10'>
+          <section className='py-10' id='technologies'>
             <div className='container m-auto px-4 py-14'>
             <h2 className='text-2xl font-semibold'>Technologies and Skills</h2>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
