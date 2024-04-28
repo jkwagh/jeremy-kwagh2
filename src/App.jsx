@@ -91,7 +91,7 @@ function App() {
                 <div className='flex mt-12 gap-2'>
 
                 <a href='https://www.loom.com/share/cc49767968a946acba817ed04eb6509f?sid=d3d57971-ef4b-4e58-ba76-dcc9f90382ab'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
-                <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
+                <a href='https://github.com/jkwagh/p5-project-jeremykwagh'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
