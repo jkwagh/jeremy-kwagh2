@@ -99,8 +99,8 @@ function App() {
                 <h3 className='text-2xl font-semibold mt-8'>Flatiron Eats</h3>
                 <p className='text-gray-400 text-sm mt-2'>A clone of a food delivery app that contains a small sample of foods from different menus that can be added to a cart.</p>
                 <div className='flex mt-12 gap-2'>
-                  <button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
-                  <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
+                  <a href='https://www.loom.com/share/5f893c63d9ee4c188721fabb2e955dec?sid=20ed6bcd-eaa7-4d28-a3b5-db000a37211e'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
+                  <a href='https://github.com/jkwagh/P4-Project'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
@@ -108,8 +108,8 @@ function App() {
                 <h3 className='text-2xl font-semibold mt-8'>Fitness Equipment Marketplace</h3>
                 <p className='text-gray-400 text-sm mt-2'>A marketplace for fitness equipment where users can browse and add items.</p>
                 <div className='flex mt-12 gap-2'>
-                  <button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button>
-                  <button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button>
+                  <a href='https://www.loom.com/share/e5c4a9e2c2a1480aa5f07ee567043055?sid=21a68f24-3976-445a-be1f-a7e6cb5402ee'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
+                  <a href='https://github.com/jkwagh/phase2project-Ecommerce'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
             </div>
