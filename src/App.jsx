@@ -67,10 +67,10 @@ function App() {
               <div className='m-auto item-center'>
                 <ul className='flex mt-2 gap-2'>
                   <li>
-                    <a href='https://github.com/jkwagh'><img src={Github} className='w-5' /></a>
+                    <a href='https://github.com/jkwagh' target="_blank" rel="noopener noreferrer"><img src={Github} className='w-5' /></a>
                   </li>
                   <li>
-                    <a href='https://www.linkedin.com/in/jeremiahkwagh/'><img src={Linkedin} className='w-5'/></a>
+                    <a href='https://www.linkedin.com/in/jeremiahkwagh/' target="_blank" rel="noopener noreferrer"><img src={Linkedin} className='w-5'/></a>
                   </li>
                 </ul>
               </div>
@@ -90,8 +90,8 @@ function App() {
                 <p className='text-gray-400 text-sm mt-2'>An event organizing app that allows prospective attendees to see event details and the event organizer to see attendee information.</p>
                 <div className='flex mt-12 gap-2'>
 
-                <a href='https://www.loom.com/share/cc49767968a946acba817ed04eb6509f?sid=d3d57971-ef4b-4e58-ba76-dcc9f90382ab'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
-                <a href='https://github.com/jkwagh/p5-project-jeremykwagh'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
+                <a href='https://www.loom.com/share/cc49767968a946acba817ed04eb6509f?sid=d3d57971-ef4b-4e58-ba76-dcc9f90382ab' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
+                <a href='https://github.com/jkwagh/p5-project-jeremykwagh' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
@@ -99,8 +99,8 @@ function App() {
                 <h3 className='text-2xl font-semibold mt-8'>Flatiron Eats</h3>
                 <p className='text-gray-400 text-sm mt-2'>A clone of a food delivery app that contains a small sample of foods from different menus that can be added to a cart.</p>
                 <div className='flex mt-12 gap-2'>
-                  <a href='https://www.loom.com/share/5f893c63d9ee4c188721fabb2e955dec?sid=20ed6bcd-eaa7-4d28-a3b5-db000a37211e'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
-                  <a href='https://github.com/jkwagh/P4-Project'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
+                  <a href='https://www.loom.com/share/5f893c63d9ee4c188721fabb2e955dec?sid=20ed6bcd-eaa7-4d28-a3b5-db000a37211e' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
+                  <a href='https://github.com/jkwagh/P4-Project' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
@@ -108,8 +108,8 @@ function App() {
                 <h3 className='text-2xl font-semibold mt-8'>Fitness Equipment Marketplace</h3>
                 <p className='text-gray-400 text-sm mt-2'>A marketplace for fitness equipment where users can browse and add items.</p>
                 <div className='flex mt-12 gap-2'>
-                  <a href='https://www.loom.com/share/e5c4a9e2c2a1480aa5f07ee567043055?sid=21a68f24-3976-445a-be1f-a7e6cb5402ee'><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
-                  <a href='https://github.com/jkwagh/phase2project-Ecommerce'><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
+                  <a href='https://www.loom.com/share/e5c4a9e2c2a1480aa5f07ee567043055?sid=21a68f24-3976-445a-be1f-a7e6cb5402ee' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Demo</button></a>
+                  <a href='https://github.com/jkwagh/phase2project-Ecommerce' target="_blank" rel="noopener noreferrer"><button className='flex-1 text-sm px-6 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500'>Github</button></a>
                 </div>
               </div>
             </div>
