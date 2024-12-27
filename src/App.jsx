@@ -6,6 +6,7 @@ import FlatironEats from "./assets/FlatironEats.png";
 import Github from "./assets/GithubIcon.png"
 import Linkedin from "./assets/LinkedinIcon.png"
 import ArrowUp from './assets/arrow-up.svg';
+import EcoTravel from "./assets/EcoTravel.png";
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
             </h2>
             <div className='flex flex-col sm:flex-row gap-10 mt-11'>
             <div className='border border-gray-500 rounded-md p-5 flex-1'>
-                <img src={EventPlanner} className='w-full h-auto'/>
+                <img src={EcoTravel} className='w-full h-auto'/>
                 <h3 className='text-2xl font-semibold mt-8'>Eco-Travel</h3>
                 <p className='text-gray-400 text-sm mt-2'>An eco-centric short-term rental app that allows environmentally conscious travelers find accommodations with eco friendly amenities.</p>
                 <div className='flex mt-12 gap-2'>
