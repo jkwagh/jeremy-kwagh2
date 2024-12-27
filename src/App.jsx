@@ -57,7 +57,7 @@ function App() {
           <div className='container m-auto px-4 pt-12 sm:py-32  flex flex-col sm:flex-row gap-6'>
             <div>
               <h2 className='font-bold text-4xl'>Hello, I am Jeremy,</h2>
-              <h2 className='font-bold text-4xl mt-1 gradiant-text'>Full-Stack Software Developer</h2>
+              <h2 className='font-bold text-4xl mt-1 gradiant-text'>Back-End Software Developer</h2>
               <p className='mt-4 text-gray-400'>🫘 Former bean counter turned code writer.</p>
               <p className='mt-4 text-gray-400'>👨‍💻 With a unique blend of 10 years in accounting and a passion for coding, I bring a diverse skill set to the world of software development. My technical proficiency includes, but is not limited to, JavaScript, React, HTML/CSS, Python, and SQL.</p>
               <p className='mt-4 text-gray-400'>👨‍💻 My journey started in accounting, where I honed my analytical skills, problem-solving abilities, and gained experience working collaboratively. However, my fascination with technology led me to transition into pursuing a career in software engineering. I am looking to leverage my background in accounting to help any team come up with solutions that meet technical requirements, while also keeping an eye on business needs and understanding how the two sides should work together.</p>
@@ -121,10 +121,10 @@ function App() {
             <h2 className='text-2xl font-semibold'>Technologies and Skills</h2>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Javascript</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Go (Golang)</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>React</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Javascript</p>
               </div>
               <div>
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Python</p>
@@ -135,24 +135,35 @@ function App() {
             </div>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
               <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>MongoDB</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>SQLite</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>PostgreSQL</p>
+              </div>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Database Development</p>
+              </div>
+            </div>
+            <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
+              <div>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>React</p>
+              </div>
+              <div>
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Git</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>RESTful APIs</p>
-              </div>
-              <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Tailwind</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>REST API Development</p>
               </div>
               <div>
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Object Oriented Programming</p>
               </div>
             </div>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
-            <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>MongoDB</p>
-              </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Teamwork</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Collaborative Work Experience</p>
               </div>
               <div>
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Problem Solving</p>
