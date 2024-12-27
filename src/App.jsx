@@ -139,7 +139,7 @@ function App() {
                 <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Python</p>
               </div>
               <div>
-                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Flask-SQLAlechemy</p>
+                <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-3'>Flask-SQLAlchemy</p>
               </div>
             </div>
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]'>
@@ -192,7 +192,8 @@ function App() {
                   <h3 className='absolute left-0 text-lg font-semibold'>2024</h3>
                   <p>Ama Earth Group - Led the development of a back-end REST API for an eco-friendly short-term rental platform, using Go (Golang) and PostgreSQL, ensuring high performance and reliability. Conducted research and made strategic decisions on tech tools such as language and database selection, optimizing for project requirements and long-term maintainability. Collaborated closely with the front-end team to align API functionality with front-end user interface components, enhancing user experience and overall system performance.
                   </p>
-                  <p>Flatiron School - An immmersive coding bootcamp that gives students the education to become lifelong professional software engineers. Flatiron’s full stack program teaches programming fundamentals (HTML & CSS, OOP, SQL), web frameworks (Flask), Python, JavaScript, and front-end frameworks (React). Students build advanced portfolios to demonstrate their technical skills and creativity and immerse themselves in the technical community.</p>
+                  <br />
+                  <p>Flatiron School - An immersive coding bootcamp that gives students the education to become lifelong professional software engineers. Flatiron’s full stack program teaches programming fundamentals (HTML & CSS, OOP, SQL), web frameworks (Flask), Python, JavaScript, and front-end frameworks (React). Students build advanced portfolios to demonstrate their technical skills and creativity and immerse themselves in the technical community.</p>
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2022</h3>
@@ -200,11 +201,11 @@ function App() {
                 </div>
                 <div className='pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2016</h3>
-                  <p>Comcast, Senior Accountant - Performed monthly accountant duties for the Revenue Department of Comcast Cable. Including, but not limited to, monitoring and analying general ledger accounts, providing monthly explanations of changes in BS, and preparing/posting monthly journal entries.</p>
+                  <p>Comcast, Senior Accountant - Performed monthly accountant duties for the Revenue Department of Comcast Cable. Including, but not limited to, monitoring and analyzing general ledger accounts, providing monthly explanations of changes in BS, and preparing/posting monthly journal entries.</p>
                 </div>
                 <div className='pl-24 mt-12 backdrop:relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='absolute left-0 text-lg font-semibold'>2013</h3>
-                  <p>Eisner Amper, Senior Auditor - Performed and assisted audits and reviews for clients in various industries such as commercial, manudacturing, non-profit, and emploee behefit for a 1,200+ emplpyee national public accounting firm.</p>
+                  <p>EisnerAmper, Senior Auditor - Performed and assisted audits and reviews for clients in various industries such as commercial, manufacturing, non-profit, and employee benefit for a 1,200+ employee national public accounting firm.</p>
                 </div>
               </div>
             </div>
